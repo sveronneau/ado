@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gcr.io/stacyv-sandbox/azure:nginx
+        image: gcr.io/stacyv-slalom-prj1/azure:nginx
         ports:
         - containerPort: 80
         imagePullPolicy: Always
