@@ -9,7 +9,7 @@ steps:
   displayName: Build and Push
   inputs:
     containerRegistry: 'GCR'
-    repository: 'stacyv-sandbox/azure'
+    repository: 'stacyv-slalom-prj1/azure'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
